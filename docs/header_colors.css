@@ -1,0 +1,29 @@
+/* Style for h1 headers */
+.cm-header-1, .markdown-preview-view h1 {
+    color: var(--color-red); /* Or any color you prefer */
+}
+
+/* Style for h2 headers */
+.cm-header-2, .markdown-preview-view h2 {
+    color: var(--color-orange); /* Or any color you prefer */
+}
+
+/* Style for h3 headers */
+.cm-header-3, .markdown-preview-view h3 {
+    color: var(--color-yellow); /* Or any color you prefer */
+}
+
+/* Style for h4 headers */
+.cm-header-4, .markdown-preview-view h4 {
+    color: var(--color-green); /* Or any color you prefer */
+}
+
+/* Style for h5 headers */
+.cm-header-5, .markdown-preview-view h5 {
+    color: var(--color-blue); /* Or any color you prefer */
+}
+
+/* Style for h6 headers */
+.cm-header-6, .markdown-preview-view h6 {
+    color: var(--color-purple); /* Or any color you prefer */
+}

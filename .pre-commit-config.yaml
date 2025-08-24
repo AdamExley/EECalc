@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: update-readme
+        name: Update README with any linked content
+        entry: uv run python scripts/update_readme.py
+        language: system
+        always_run: true

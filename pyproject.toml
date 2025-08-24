@@ -1,0 +1,50 @@
+[project]
+name = "ComponentCalc"
+version = "0.0.0"
+description = "An Electrical Engineering calculator suite "
+readme = "README.md"
+authors = [{ name = "Adam Exley", email = "34522460+AdamExley@users.noreply.github.com" }]
+requires-python = ">=3.13"
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+keywords = ["electronics", "engineering", "calculator", "circuit", "electrical", "Electrical Engineering", "design"]
+
+classifiers = [
+    "Development Status :: 1 - Planning",
+
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
+
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Repository = "https://github.com/AdamExley/ComponentCalc/"
+
+############################# Dependencies
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+    "twine>=6.1.0",
+]
+gui = [
+    "pyside6>=6.9.1",
+]
+math = [
+    "engineering-notation>=0.10.0",
+    "lcapy>=1.24",
+    "numpy>=2.3.2",
+    "scikit-rf>=1.8.0",
+    "sympy>=1.14.0",
+]
+passives = [
+    "eseries>=1.2.1",
+]
+
+############################# Entry Points
+[project.scripts]
+ComponentCalc = "ComponentCalc:ComponentCalc"

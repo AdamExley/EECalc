@@ -1,0 +1,31 @@
+{
+    "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+},
+"cSpell.words": [
+    "CCCS",
+    "datasheet",
+    "eseries",
+    "exley",
+    "jansson",
+    "kwargs",
+    "lcapy",
+    "lectrical",
+    "LICEN",
+    "ngineering",
+    "Ngspice",
+    "numpy",
+    "opamp",
+    "Opamps",
+    "parasitics",
+    "pycache",
+    "pyside",
+    "scikit",
+    "Subcircuits",
+    "sympy",
+    "Tolerancing",
+    "venv"
+]
+
+}

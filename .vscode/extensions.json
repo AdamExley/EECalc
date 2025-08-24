@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "seanwu.vscode-qt-for-python",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "tamasfe.even-better-toml",
+        "njpwerner.autodocstring",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
